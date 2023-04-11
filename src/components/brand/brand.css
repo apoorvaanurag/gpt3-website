@@ -1,0 +1,19 @@
+.gpt3__brands{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* doing the following to make sure each element has its own space defined */
+.gpt3__brands div{
+    flex:1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
